@@ -1,0 +1,58 @@
+#1 - Baixe o GIT gratuitamente do seguinte link: https://git-scm.com/downloads
+#2 - Crie uma conta no GITHUB no seguinte link: https://github.com/join
+#3 - Crie seu 1º Projeto no GIT
+##3 - 1º. Crie uma nona pasta no seu computador
+2º. Entre nessa pasta e clique com botão direito do mause e execute a opção "GIT Bach Here"
+#4 - Com o GIT aberto digite: git init 
+#5 - Dentro da pasta do 1º Projeto inicie o projeto no programa que desejar 
+#6 - Dentro do GIT digite: git status para ver os arquivos não incluidos no controle de versão
+#7 - Dentro do GIT digite: git add "nome do arquivo do seu 1º projeto" e apertar ENTER para adicioná-lo ao controle de versão
+#8 - Para vericar se ação acima deu resultado digite: git status que deve retornar "new file: nome do arquivo"
+#9 - Para adicionar diversos arquivos com APENAS um comando digite: git add . e aperte ENTER
+#10 - Para vericar se ação acima deu resultado digite: git status, que deve retornar "new file: nome do arquivo" na quantidade 
+de arquivos adicionados
+#11 Com os arquivos adicionados é necessário criar a 1ª versão do código, digitando: git commit -m "mensagem" (informa a funcionalidade
+desses arquivos" aperte ENTER
+##11 - 1º. Para configurar o GIT pela 1ª vez informe seu e-mail usado para criar a conta do GITHUB, 
+a seguinte seguinte mensagem será mostada git config --global user.email "you@example.com" git config --global
+user.name "Your Name
+2º. Copia-a e coloque seu e-mail e nome e execute no GIT apertando ENTER
+3º. Digite novanente: git commit -m "mensagem" (informa a funcionalidade desses arquivos) aperte ENTER
+#12 - Para enviar para a "nuvem" GITHUB digite o comando git push
+##12 - 1° É necessário criar um novo repositório no GITHUB, para isso clicar em adicinar "+", New Repository, dê um nome a esse novo 
+repositorio, escolha se esse repositório será público ou privado, adicionar o "README" com instruções para o seu código, por fim clicar
+em "Create Repository"
+#13 Copie o link desse Novo repositório e digite git remote add origin no GIT Bash do seu computador, após ter feito isso
+cole o link e execute tudo com ENTER
+#14 Digite o comando git push "que não fucionsrá", apenas mostrará outro comando para executar
+##14 1.º copie o comando que irá aparecer no GIT Bach "git push --set-upstream origin master"
+2º. Apertar ENTER para executar o comando
+3º. Se o login do GITHUB não tiver sido feito, irá abrir uma janela para faze-ló
+4º. É necessário fazer o login no GITHUB e autorizar o acesso
+#15 ESSA FOI A PRIMEIRA VERSÃO DO 1º PROJETO
+#16 modifique o arquivo do projeto, e execute novamente o comando git status
+#17 adicione a modicação com o comando git add .
+#18 execute o comando git commit -m "mensagem" (dizer qual modificação foi adicionada)
+#19 envie estas atualizações com comando git push
+#20 Para verificar o histórico de atualizações execute o comando git reflog
+#21 Para ir para uma versão digite: git reset --hard + número id da versão
+CRIANDO UMA BRANCH E FAZENDO UM MERGE
+##21 execute o comando git branch + nome da branch 
+1º. execute o comando git checkout + nome da branch para fazer modificações nela
+2º. execute o comando git push --set upstream origin + nome da branch 
+Pull Request - autorização de outro programador 
+#22 É necessário alterar o arquivo do projeto
+##22 Execute o código git add .
+1º. Execute o código git commit -m "mensagem"
+2º. Execute o código git push
+3º. Execute o código que aperce na tela: "git push --set upstream origin + nome da branch"
+4º. Aguardar a autorização do outro programador para realizar o merge
+GIT IGNORE
+#23 Execute o comando: touch .gitignore
+##23 O GIT irá criar um arquivo .txt em branco, para o progamador adicionar os nomes dos arquivos a serem ignorados, ou seja, 
+não enviadoa ao GITHUB
+1º. Após serem adicionados os nomes dos arquivos a serem ignorados, o próprio arquivo gitigore deve ser adicionado ao GITHUB com o
+ seguinte código: dit add .
+2º. Execute o seguinte código para fazer um commit do arquivo gitignore: git commit -m "adicionado arquivo gitigore"
+3º. Execute o seguite código gitpush
+
